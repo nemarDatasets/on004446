@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 2",
+  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The high-density electrode configuration enables detailed spatial characterization of cortical activity underlying motor control and brain-computer communication.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,49 +15,6 @@
     "Midori Kodama": {},
     "Junichi Ushiba": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds004446.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004446",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004446",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1038/s41597-023-02260-6",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "JST",
-      "award_number": "JPMJMS2012",
-      "award_title": "Moonshot R&D"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from subjects performing motor imagery and sensorimotor rhythm modulation tasks, designed to support the development and validation of BCI systems. The dataset is intended to facilitate research in neural signal processing, motor control, and brain-computer interface applications.",
   "keywords": [
     {
       "term": "EEG"
@@ -74,8 +32,51 @@
       "term": "high-density electroencephalography"
     },
     {
-      "term": "neural signal processing"
+      "term": "BCI"
     }
   ],
-  "source_hash": "1dd2e881172a445b6345dde8e9cd6f26799c058a532aacbc573d51deb0a5953e"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on004446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-023-02260-6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004446.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "JST",
+      "award_number": "JPMJMS2012",
+      "award_title": "Moonshot R&D"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "31.4 GB (238 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "c19a0c1222df9bed4b03f07e3c6da9f1053f319f19e2b414e68a1848ce8ad3f9"
 }
